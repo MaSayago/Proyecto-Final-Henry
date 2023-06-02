@@ -1,4 +1,4 @@
-
+![alt text](./ima/Google-meta-dist-calif-total.png)
 IMAGEN Google-meta-dist-calif-total
 
 La mayoría de las puntuaciones se encuentran entre 4 y 5 estrellas, lo que sugiere que la mayoría de las personas están satisfechas con el objeto o servicio evaluado.
