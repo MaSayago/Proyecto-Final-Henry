@@ -53,15 +53,16 @@ Experiencias temáticas: La variedad de tipos de bares sugiere la existencia de 
 Personalización y segmentación: Los consumidores buscan lugares que se adapten a sus gustos y necesidades individuales, lo que requiere una oferta más enfocada y diferenciada.
 Innovación y creatividad: Los tipos de bares poco convencionales reflejan un enfoque en la innovación y la creatividad para destacarse en un mercado competitivo.
 
+
 ![alt text](./img/Yelp-tips-nube.png)
 
 Al realizar una nube de palabras relacionada con la palabra "beer", se pueden extraer palabras o frases relevantes que brindan información sobre las características y aspectos asociados a las cervezas. Algunas de estas palabras pueden incluir "happy hour", "food great" y otras que se mencionan con menos frecuencia.
 La nube de palabras relacionada con "beer" revela aspectos relevantes de las cervezas, como "happy hour" y "food great". Las promociones especiales durante el "happy hour" atraen clientes y aumentan las ventas. La presencia menos frecuente de "food great" sugiere oportunidades de mejora en la oferta gastronómica. Desarrollar un menú de alta calidad que complemente la cerveza puede mejorar la experiencia culinaria. Estos hallazgos son útiles para determinar los factores clave del éxito y sugerir mejoras en los lugares con oportunidades perdidas.
 
 
-Analisis de sentimientos tip.json columna text
+Analisis de sentimientos tip.json columna "text"
 
-A partir del análisis de sentimiento de las reseñas, se puede inferir que las cervecerías tienen en general una buena reputación y satisfacen las expectativas de sus clientes. La mayoría de las reseñas muestran un sentimiento positivo, lo que sugiere que los clientes disfrutan de su experiencia en las cervecerías y están satisfechos con la calidad de la cerveza, el ambiente y el servicio. Sin embargo, también se identifican algunas reseñas con un sentimiento negativo, lo que indica que existen áreas de mejora y posibles problemas que deben abordarse para mantener la satisfacción del cliente
+A partir del análisis de sentimiento de las reseñas, se puede inferir que los bares tienen en general una buena reputación y satisfacen las expectativas de sus clientes. La mayoría de las reseñas muestran un sentimiento positivo, lo que sugiere que los clientes disfrutan de su experiencia en los bares y están satisfechos con la calidad de la cerveza, el ambiente y el servicio. Sin embargo, también se identifican algunas reseñas con un sentimiento negativo, lo que indica que existen áreas de mejora y posibles problemas que deben abordarse para mantener la satisfacción del cliente
 
 
 
