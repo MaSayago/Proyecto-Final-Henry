@@ -1,5 +1,5 @@
 ![alt text](./img/Google-meta-dist-calif-total.png)
-IMAGEN Google-meta-dist-calif-total
+
 
 La mayoría de las puntuaciones se encuentran entre 4 y 5 estrellas, lo que sugiere que la mayoría de las personas están satisfechas con el objeto o servicio evaluado.
 
@@ -14,8 +14,8 @@ El rango de puntajes moderados se ha establecido entre 3.0 y 4.5. Esta categorí
 En resumen, la mayoría de las calificaciones son altas, con una inclinación hacia las 5 estrellas. Sin embargo, también existen algunas calificaciones bajas y una categoría de puntajes moderados que indican distintos niveles de satisfacción entre los evaluadores.
 
 
+![alt text](./img/Google-meta-dist-calif-bar.png)
 
-IMAGEN Google-meta-dist-calif-bar
 
 El pico más alto del puntaje en el gráfico está muy cerca del puntaje promedio anterior. Esto indica que hay una concentración significativa de calificaciones en torno al puntaje promedio, lo que sugiere que muchos usuarios han otorgado calificaciones cercanas al promedio.
 
@@ -37,8 +37,7 @@ El puntaje promedio de los bares es de 4.235676139103616. Esto indica que, en pr
 
 En resumen, hay un número significativo de calificaciones y reviews de bares en Google Maps, lo que indica que los usuarios están activamente compartiendo sus experiencias y opiniones sobre estos establecimientos. El puntaje promedio de los bares es positivo, con una calificación promedio de alrededor de 4.24 estrellas.
 
-
-IMAGEN Google-meta-tipo-bar
+![alt text](./img/Google-meta-tipos-bar.png)
 
 se puede concluir que en esta ubicación específica se observa una distribución de diferentes tipos de bares. Los dos tipos más populares son los girl bars y los cocktail bars, lo que sugiere que hay una demanda significativa de lugares donde el servicio proporcionado por mujeres y la oferta de tragos son los principales atractivos.
 
