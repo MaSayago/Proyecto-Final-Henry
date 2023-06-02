@@ -108,13 +108,13 @@ Se utilizará la metodología ágil Scrum para el desarrollo del proyecto. El eq
 
 - **_Data Analyst_**: Kevin Bambozzi, Martin Sayago
 
-- **_Data Engineer_**: Yamil Pintos, Alex Dalpiaz, Jere Ramirez
+- **_Data Engineer_**: Yamil Pintos, Alex Dalpiaz, Jeremias Ramirez
 
-- **_Data Science_**: Alex Dalpiaz, Jere Ramirez
+- **_Data Science_**: Alex Dalpiaz, Jeremias Ramirez
 
 ## Link De Repositorio: 
 
-**_Github:_**<https://github.com/alexDRandom/Poyecto-Final-Henry>
+**_Github:_** <https://github.com/alexDRandom/Proyecto-Final-Henry>
 
 
 Agradecemos su atención y estamos disponibles para responder cualquier pregunta que puedan tener. Esperamos poder llevar a cabo este proyecto exitosamente y lograr mejoras significativas en los bares de nuestro cliente. ¡Gracias!
