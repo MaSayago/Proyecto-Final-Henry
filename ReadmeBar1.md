@@ -45,11 +45,6 @@ El alcance de este proyecto incluye analizar las reseñas de bares con baja y al
 - `Evaluación de características locales`: Analiza la presencia de atracciones turísticas, universidades, oficinas corporativas u otras características locales que puedan influir en el potencial de un bar.
 
 
-
-# Repositorio Github
-
-<https://github.com/alexDRandom/Poyecto-Final-Henry>
-
 # Solución propuesta
 
 ## Tareas:
@@ -79,6 +74,7 @@ g. Generar recomendaciones accionables basadas en los hallazgos del análisis.
 **_Lenguaje de programación:_** 
 
 - Python 
+- SQL
 
 **_Bibliotecas y frameworks:_** 
 
@@ -100,8 +96,13 @@ g. Generar recomendaciones accionables basadas en los hallazgos del análisis.
 
 ## Metodología de trabajo:
 
-Se utilizará la metodología ágil Scrum para el desarrollo del proyecto. El equipo se organizará en sprints de una semana de duración, con reuniones diarias de seguimiento y una reunión de revisión al final de cada sprint. Se obtendrá más información del cronograma general en el siguiente diagrama de Gantt.
+Se utilizará la metodología ágil Scrum para el desarrollo del proyecto. El equipo se organizará en sprints de una semana de duración, con reuniones diarias de seguimiento y una reunión de revisión al final de cada sprint. Se obtendrá más información del cronograma general en el siguiente diagrama de Gantt:
+ <p align="center">
+<img src= https://github.com/kevinbamba/Proyecto-Final-Henry/blob/main/img/Diagrama-gant.png>
+</p>
 
+## Análisis preliminar de calidad de datos:
+ Este informe de Análisis Exploratorio de Datos (EDA) presenta los resultados obtenidos a partir de los datos recopilados de Google Maps y Yelp. Nuestro objetivo principal fue analizar la información de bares y establecimientos similares con el fin de mejorar la calidad de los negocios y la experiencia de los clientes. Mediante el uso de diversas técnicas de análisis de datos, exploramos los factores que contribuyen a la excelencia en los establecimientos y proporcionamos recomendaciones clave para optimizar el rendimiento y brindar una experiencia excepcional a los clientes. A continuación, presentamos los principales hallazgos y recomendaciones derivados de nuestro análisis
 
 # Roles:
 
@@ -110,6 +111,10 @@ Se utilizará la metodología ágil Scrum para el desarrollo del proyecto. El eq
 - **_Data Engineer_**: Yamil Pintos, Alex Dalpiaz, Jere Ramirez
 
 - **_Data Science_**: Alex Dalpiaz, Jere Ramirez
+
+## Link De Repositorio: 
+
+**_Github:_**<https://github.com/alexDRandom/Poyecto-Final-Henry>
 
 
 Agradecemos su atención y estamos disponibles para responder cualquier pregunta que puedan tener. Esperamos poder llevar a cabo este proyecto exitosamente y lograr mejoras significativas en los bares de nuestro cliente. ¡Gracias!
