@@ -77,7 +77,7 @@ g. Generar recomendaciones accionables basadas en los hallazgos del análisis.
 - SQL
 
 **_Bibliotecas y frameworks:_** 
-
+- Wordcloud 
 - Python
 - Pandas / NumPy
 - Scikit-learn 
