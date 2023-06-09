@@ -5,11 +5,17 @@
 
 Elaboramos este documento con el objetivo de proporcionar detalles adicionales sobre las actividades y tareas realizadas durante la segunda semana. En dicho período, nuestro enfoque principal fue la ingeniería de datos, que incluyó la planificación, diseño y construcción de la infraestructura del proyecto. Dentro de estas tareas, se dio prioridad a la validación y transformación de dataos junto a la determinación del flujo de trabajo. Asimismo, nos enfocamos en la creación y posterior automatización de los pipelines necesarios para llevar a cabo el proceso de extracción, transformación y carga (ETL), con el propósito de almacenar los datos en un Data Warehouse.
 Con el fin de abordar el tema desde lo más general a lo más específico, a continuación, describimos los Pipelines de manera abarcativa y luego WorkFlow para ahondar más en los detalles 
-Pipelines 
+## Pipelines 
+
 Para poder entender mejor de forma visual este proceso, los estructuramos en base las tres instancias del ETL (Extracción, Transformación y Carga)
-•	Extracción: captura de datos.
-•	Transformación: limpieza, filtrado de datos, validación y transformación.
-•	Carga: Almacenamiento de los datos el Data Werehouse.
+
+•	**_Extracción:_** captura de datos.
+
+•	**_Transformación_**: limpieza, filtrado de datos, validación y transformación.
+
+•	**_Carga_**: Almacenamiento de los datos el Data Werehouse.
+
+
  
 Definidas las instancias, pasamos a explicar cada paso.
 # Extracción 
@@ -172,6 +178,10 @@ El proceso completo abarcó desde la extracción de datos hasta su almacenamient
 El modelo de entidad-relación (DER), es una forma de modelar el mundo real en una base de datos de manera que sea fácil de comprender y utilizar para los usuarios.
 En nuestro caso, al utilizar Google BigQuery como sistema de gestión de bases de datos, las relaciones del modelo ER tradicional no son necesarias ya que es una base de datos relacional distribuida, no utiliza claves foráneas para establecer relaciones de manera explícita como lo haría un sistema de gestión de bases de datos relacional tradicional.
 Si bien las relaciones en un diagrama ER tradicional no se aplican directamente en BigQuery, sigue siendo importante comprender la estructura y la semántica de los datos para poder diseñar consultas eficientes y obtener los resultados deseados. Entender cómo se relacionan las tablas y qué columnas pueden utilizarse para combinar y filtrar los datos de manera efectiva en las consultas.
+
 Por eso generamos un Diagrama de ER para entender las relaciones.
+ <p align="center">
+<img src= DiagramaER.PNG >
+</p>
 
  
