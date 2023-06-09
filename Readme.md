@@ -28,21 +28,21 @@ El alcance de este proyecto incluye analizar las reseñas de bares con baja y al
 
 ## KPIs de mejora:
 
-- `Promedio de calificaciones`: Calcula el promedio de calificaciones (estrellas) de los bares utilizando las reseñas de los clientes.
+- **_Promedio de calificaciones:_** Calcula el promedio de calificaciones (estrellas) de los bares utilizando las reseñas de los clientes. El objetivo será aumentar este promedio en al menos un 20% a medida que se implementen las mejoras. Esto indicará una mejora general en la calidad y la satisfacción del cliente.
 
-- `Número total de reseñas`: Determina cuántas reseñas ha recibido cada bar para evaluar su nivel de popularidad y participación de los clientes.
+- **_Número total de reseñas:_** Determina cuántas reseñas ha recibido cada bar para evaluar su nivel de popularidad y participación de los clientes. El objetivo será aumentar el número total de reseñas en por lo menos 5%, lo cual reflejará una mayor interacción y retroalimentación de los clientes.
 
-- `Porcentaje de reseñas positivas`: Determina el porcentaje de reseñas con calificaciones altas (por ejemplo, 4 o 5 estrellas) para evaluar el nivel de satisfacción general de los clientes.
+- **_Porcentaje de reseñas positivas:_** Calcula el porcentaje de reseñas con calificaciones altas (por ejemplo, 4 o 5 estrellas) para evaluar el nivel de satisfacción general de los clientes. El objetivo será aumentar este porcentaje entre un 5% y 15%, lo cual indicará una mejora en la percepción positiva de los clientes sobre los bares.
 
-- `Palabras clave más frecuentes en las reseñas`: Utilizando el texto de las reseñas, identifica las palabras clave más frecuentes asociadas con experiencias positivas o negativas, lo cual te ayudará a entender mejor las preferencias de los clientes y áreas de mejora.
+- **_Palabras clave más frecuentes en las reseñas:_** Utilizando técnicas de procesamiento de lenguaje natural, identifica las palabras clave más frecuentes asociadas con experiencias positivas o negativas. Este KPI permitirá comprender mejor las preferencias de los clientes y las áreas específicas que requieren mejora. El objetivo será identificar y abordar al menos 3 áreas de mejora relevantes según las palabras clave extraídas.
 
 ## KPIs de ubicación y expansión:
 
-- `Densidad de bares por ubicación`: Utiliza la información de ubicación (latitud y longitud) para calcular la densidad de bares en diferentes áreas o ciudades, lo cual te puede ayudar a identificar áreas con alta o baja competencia.
+- **_Densidad de bares por ubicación:_** Utiliza la información de ubicación (latitud y longitud) para calcular la densidad de bares en diferentes áreas o ciudades. El objetivo será identificar áreas con alta densidad de bares y evaluar su potencial de expansión. El objetivo consistirá en aumentar el umbral de densidad en un 5% en los casos que demuestren potencial de expansión 
 
- - `KPIs de competencia`: Puedes utilizar la información de categorías de los bares para evaluar la competencia en diferentes segmentos de mercado, como "Mexican", "Burgers", "Gastropubs", entre otros.
+ - **_Índice de competencia:_** Utiliza la información de categorías de los bares para evaluar la competencia en diferentes segmentos de mercado, como "Mexican", "Burgers", "Gastropubs", entre otros. Este KPI permitirá identificar áreas con baja competencia y oportunidades de nicho. El objetivo consistirá en establecer un índice objetivo de competencia basado en el número de bares y su categoría para incrementarlo en al menos 5% en los segmentos que representen una oportunidad de nicho.
 
-- `Evaluación de características locales`: Analiza la presencia de atracciones turísticas, universidades, oficinas corporativas u otras características locales que puedan influir en el potencial de un bar.
+- **_Evaluación de características locales:_** Analiza la presencia de atracciones turísticas, universidades, oficinas corporativas u otras características locales que puedan influir en el potencial de un bar. El objetivo será establecer un índice, mediante el establecimiento de criterios específicos, que represente las ubicaciones con características favorables para la expansión y el crecimiento del negocio, con el fin de identificar puntos relevantes para incrementar dicho índice en un 5%.
 
 
 # Solución propuesta
@@ -74,7 +74,6 @@ g. Generar recomendaciones accionables basadas en los hallazgos del análisis.
 **_Lenguaje de programación:_** 
 
 - Python 
-- SQL
 
 **_Bibliotecas y frameworks:_** 
 - Wordcloud 
@@ -91,18 +90,26 @@ g. Generar recomendaciones accionables basadas en los hallazgos del análisis.
 **_Base de Datos_:**
 
 - Google Cloud Plataform
-- SQL
+   - Cloud Storage
+   - Bucket
+   - BigQuery
+   - DataFlow
 
 
 ## Metodología de trabajo:
 
 Se utilizará la metodología ágil Scrum para el desarrollo del proyecto. El equipo se organizará en sprints de una semana de duración, con reuniones diarias de seguimiento y una reunión de revisión al final de cada sprint. Se obtendrá más información del cronograma general en el siguiente diagrama de Gantt:
  <p align="center">
-<img src= https://github.com/kevinbamba/Proyecto-Final-Henry/blob/main/img/Diagrama-gant.png>
+<img src= [img/Diagrama_de_Gantt-Semana-2.jpeg](https://github.com/kevinbamba/Proyecto-Final-Henry/blob/main/img/Diagrama_de_Gantt-Semana-2.jpeg)>
 </p>
 
 ## Análisis preliminar de calidad de datos:
- Este informe de Análisis Exploratorio de Datos (EDA) presenta los resultados obtenidos a partir de los datos recopilados de Google Maps y Yelp. Nuestro objetivo principal fue analizar la información de bares y establecimientos similares con el fin de mejorar la calidad de los negocios y la experiencia de los clientes. Mediante el uso de diversas técnicas de análisis de datos, exploramos los factores que contribuyen a la excelencia en los establecimientos y proporcionamos recomendaciones clave para optimizar el rendimiento y brindar una experiencia excepcional a los clientes. A continuación, presentamos los principales hallazgos y recomendaciones derivados de nuestro análisis
+ Este informe de Análisis Exploratorio de Datos (EDA) presenta los resultados obtenidos a partir de los datos recopilados de Google Maps y Yelp. Nuestro objetivo principal fue analizar la información de bares y establecimientos similares con el fin de mejorar la calidad de los negocios y la experiencia de los clientes. Mediante el uso de diversas técnicas de análisis de datos, exploramos los factores que contribuyen a la excelencia en los establecimientos y proporcionamos recomendaciones clave para optimizar el rendimiento y brindar una experiencia excepcional a los clientes. A continuación, presentamos los principales hallazgos y recomendaciones derivados de nuestro análisis que se puede encontrar en el Informe-EDA.md 
+ 
+## Ingeniería de datos
+
+ En la carpeta Ingenieria de datos, se podra encontrar todo el proceso de ETL(Extract, Transform and Load) junto con su Pipelines y la creación del Data Warehouse  con el Modelo Entidad-Relación donde estan los archivo que genera la carga de los datos ya limpios en el Data Warehouse. Con su correspondiente documentacion que esta en el archivo Informe_Pipelines_y_Workflow.docx y su diccionario de datos.
+
 
 # Roles:
 
