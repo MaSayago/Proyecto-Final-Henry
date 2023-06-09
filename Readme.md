@@ -81,6 +81,8 @@ g. Generar recomendaciones accionables basadas en los hallazgos del análisis.
 - Pandas / NumPy
 - Scikit-learn 
 - Matplotlib / Seaborn
+- Fastparquet
+- pyarrow
 
 **_Herramientas de visualización de datos:_**
 
@@ -100,7 +102,7 @@ g. Generar recomendaciones accionables basadas en los hallazgos del análisis.
 
 Se utilizará la metodología ágil Scrum para el desarrollo del proyecto. El equipo se organizará en sprints de una semana de duración, con reuniones diarias de seguimiento y una reunión de revisión al final de cada sprint. Se obtendrá más información del cronograma general en el siguiente diagrama de Gantt:
  <p align="center">
-<img src= [img/Diagrama_de_Gantt-Semana-2.jpeg](https://github.com/kevinbamba/Proyecto-Final-Henry/blob/main/img/Diagrama_de_Gantt-Semana-2.jpeg)>
+<img src= img/Diagrama_de_Gantt-Semana-2.jpeg >
 </p>
 
 ## Análisis preliminar de calidad de datos:
