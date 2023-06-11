@@ -15,7 +15,7 @@ Para poder entender mejor de forma visual este proceso, los estructuramos en bas
 - Carga: Almacenamiento de los datos el Data Werehouse.
 
  <p align="center">
-<img src= "imgs/Diagrama Pipeline.png" >
+<img src= "../imgs/Diegrama Pipeline.png" >
 </p>
 
 
@@ -136,5 +136,5 @@ Si bien las relaciones en un diagrama ER tradicional no se aplican directamente 
 Por eso generamos un Diagrama de ER para entender las relaciones.
 
  <p align="center">
-<img src= "imgs/DiagramaEF.png" >
+<img src= "../imgs/DiagramaEF.png" >
 </p>
