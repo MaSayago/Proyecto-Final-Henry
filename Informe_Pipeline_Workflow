@@ -14,7 +14,10 @@ Para poder entender mejor de forma visual este proceso, los estructuramos en bas
 - Transformación: limpieza, filtrado de datos, validación y transformación.
 - Carga: Almacenamiento de los datos el Data Werehouse.
 
-![](RackMultipart20230611-1-3okt2c_html_de0669d10d72eb4b.png)
+ <p align="center">
+<img src= "imgs/Diegrama Pipeline.png" >
+</p>
+
 
 Definidas las instancias, pasamos a explicar cada paso.
 
@@ -132,4 +135,6 @@ Si bien las relaciones en un diagrama ER tradicional no se aplican directamente 
 
 Por eso generamos un Diagrama de ER para entender las relaciones.
 
-![](RackMultipart20230611-1-3okt2c_html_9fb7968acb12b1a8.jpg)
+ <p align="center">
+<img src= "imgs/DiagramaEF.png" >
+</p>
