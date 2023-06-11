@@ -15,7 +15,7 @@ Para poder entender mejor de forma visual este proceso, los estructuramos en bas
 - Carga: Almacenamiento de los datos el Data Werehouse.
 
  <p align="center">
-<img src= "imgs/Diegrama Pipeline.png" >
+<img src= "imgs/Diagrama Pipeline.png" >
 </p>
 
 
