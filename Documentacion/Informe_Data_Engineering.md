@@ -4,14 +4,16 @@
 # Introducción 
 
 Elaboramos este documento con el objetivo de proporcionar detalles adicionales sobre las actividades y tareas realizadas durante la segunda semana. En dicho período, nuestro enfoque principal fue la ingeniería de datos, que incluyó la planificación, diseño y construcción de la infraestructura del proyecto. Dentro de estas tareas, se dio prioridad a la validación y transformación de dataos junto a la determinación del flujo de trabajo. Asimismo, nos enfocamos en la creación y posterior automatización de los pipelines necesarios para llevar a cabo el proceso de extracción, transformación y carga (ETL), con el propósito de almacenar los datos en un Data Warehouse.
-Con el fin de abordar el tema desde lo más general a lo más específico, a continuación, describimos los Pipelines de manera abarcativa y luego WorkFlow para ahondar más en los detalles 
+Con el fin de abordar el tema desde lo más general a lo más específico, a continuación, describimos los Pipelines de manera abarcativa y luego WorkFlow para ahondar más en los detalles .
+
+
 ## Pipelines 
 
-Para poder entender mejor de forma visual este proceso, los estructuramos en base las tres instancias del ETL (Extracción, Transformación y Carga)
+Para poder entender mejor de forma visual este proceso, los estructuramos en base las tres instancias del ETL (Extracción, Transformación y Carga).
 
-•	**_Extracción:_** captura de datos.
+•	**_Extracción:_** Captura de datos.
 
-•	**_Transformación_**: limpieza, filtrado de datos, validación y transformación.
+•	**_Transformación_**: Limpieza, filtrado de datos, validación y transformación.
 
 •	**_Carga_**: Almacenamiento de los datos el Data Werehouse.
 
@@ -19,29 +21,31 @@ Para poder entender mejor de forma visual este proceso, los estructuramos en bas
  
 Definidas las instancias, pasamos a explicar cada paso.
 # Extracción 
-Para esta etapa utilizamos como carga inicial los datasets disponibles de ambas plataformas, posteriormente se extraerán dichos datos a través de consultas a  Yelp Opern Dataset y Google Places para hacer cargas de datos automáticas.
+Para esta etapa utilizamos los datasets disponibles de ambas plataformas, posteriormente se extraerán dichos datos a través de consultas a  Yelp Open Dataset y Google Places para hacer cargas de datos automáticas.
 Dichos Datasets contienen información de las calificaciones y opiniones de los usuarios acerca de los distintos establecimientos, además de los datos geográficos de los mismos. El formato de los datos es principalmente json.
 
 # Transformación 
  Con los datos extraídos procedemos a darles coherencia, consistencia y finalmente los preparamos para la posterior carga. A continuación, los pasos realizados:
-1.	Limpieza: en este punto corregimos las inconsistencias y eliminamos los registros duplicados o irrelevantes para garantizar la calidad de los datos.
+1.	Limpieza: En este punto corregimos las inconsistencias y eliminamos los registros duplicados o irrelevantes para garantizar la calidad de los datos.
 
-2.	Filtrado: En pos de nuestro objetivo el cual se centrar en bares realizamos el filtrado por categoría de establecimiento para obtener solo con los pertinentes.
+2.	Filtrado: En pos de nuestro objetivo el cual se centrar en bares realizamos el filtrado por categoría de establecimiento para obtener solo los pertinentes a este proyecto.
 
-3.	Validación: chequemos y corregimos la estructura y consistencia de los datos para obtener resultados confiables y precisos.
+3.	Validación: Chequeamos y corregimos la estructura y consistencia de los datos para obtener resultados confiables y precisos.
 
-4.	Transformación: antes de proceder a la carga les otorgamos a los archivos previamente en formato Json o pkl el formato Parquet para reducir el espacio necesario y optimizar el almacenamiento.
-En esta etapa también se realizó el análisis exploratorio de datos en el cual profundizamos en el Workflow
+4.	Transformación: Antes de proceder a la carga les otorgamos a los archivos previamente en formato json o pkl el formato parquet para reducir el espacio necesario y optimizar el almacenamiento.
+En esta etapa también se realizó el análisis exploratorio de datos en el cual profundizamos en el Workflow.
 
 # Carga
-Con los archivos ya limpios y en formato Parquet procedemos al almacenado de los mismos en GCP (Google Cloud Plataform) La carga se realiza mediante de la siguiente manera:
-1.	Creamos un proyecto en GCP
+Con los archivos ya limpios y en formato parquet procedemos al almacenado de los mismos en GCP (Google Cloud Plataform) La carga se realiza mediante de la siguiente manera:
 
-2.	Seleccionamos un servicio de almacenamiento que en este caso es Cloud Storage (CS)
 
-3.	Creamos un bucket en CS, que va a ser el contenedor de los archivos donde almacenarás los datos
+1.	Creamos un proyecto en GCP.
 
-4.	Finalmente, ingestamos los datos en el servicio de análisis de dicha plataforma BigQuery
+2.	Seleccionamos un servicio de almacenamiento que en este caso es Cloud Storage (CS).
+
+3.	Creamos un bucket en CS, que va a ser el contenedor de los archivos donde se almacenarán los datos.
+
+4.	Finalmente, ingestamos los datos en el servicio de análisis de dicha plataforma BigQuery.
 
 
 
@@ -50,11 +54,11 @@ Con los archivos ya limpios y en formato Parquet procedemos al almacenado de los
 
 En esta sección detallamos las distintas etapas y tecnologías utilizadas en la ingeniería de datos. Nuestro objetivo principal se centró en extraer información relevante de los establecimientos de tipo Bar en Estados Unidos junto con sus calificaciones y reseñas. Aplicamos tanto limpieza como transformación a los datos obtenidos, realizamos un análisis exploratorio y utilizamos los servicios en la nube de Google Cloud Platform (GCP) para almacenar, procesar y automatizar el flujo de datos.
 
-En la primera etapa, se emplearon los datasets provenientes de la API de Google Places y la API de Yelp para obtener datos de ubicaciones y reseñas de lugares. La API de Google Places junto con Google Maps nos proporcionan metadatos de los lugares, mientras que la API de Yelp nos brinda información adicional  de la reseñas estructurada en distintos archivos.
+En la primera etapa, se emplearon los datasets provenientes de la API de Google Places y de Yelp para obtener datos de ubicaciones y reseñas de lugares. La API de Google Places junto con Google Maps nos proporcionan metadatos de los lugares, mientras que los Dataseta de Yelp nos brinda información adicional  de la reseñas estructurada en distintos archivos.
 
-Posteriormente, se llevó a cabo la limpieza, filtrado, validación y transformación de los datos utilizando Python y bibliotecas como pandas, json, re y os, seaborn, matplotlib, pyrrow y pyarrow.parquet. Se aplicaron filtros por categoría y se eliminaron datos irrelevantes. Los datos limpios se guardaron en formato Parquet, optimizando el espacio de almacenamiento y facilitando la eficiencia en el procesamiento.
+Posteriormente, se llevó a cabo la limpieza, filtrado, validación y transformación de los datos utilizando Python y bibliotecas como pandas, json, re,os, pyarrow y fastparquet. Se aplicaron filtros por categoría y se eliminaron datos irrelevantes. Los datos limpios se guardaron en formato Parquet, optimizando el espacio de almacenamiento y facilitando la eficiencia en el procesamiento.
 
-A continuación, se realizó un análisis exploratorio detallado de los datos utilizando Python y sus bibliotecas. Se examinaron los puntajes de los lugares en Google Maps y Yelp, identificando patrones y distribuciones significativas. Esto proporcionó una comprensión más profunda de la calidad y popularidad de los lugares analizados.
+A continuación, se realizó un análisis exploratorio detallado de los datos utilizando Python y seaborn, matplotlib. Se examinaron los puntajes de los lugares en Google Maps y Yelp, identificando patrones y distribuciones significativas. Esto proporcionó una comprensión más profunda de la calidad y popularidad de los lugares analizados.
 
 Por último, se utilizaron los servicios en la nube de Google Cloud Platform (GCP) para almacenar los datos limpios en Cloud Storage en formato Parquet. Además, se emplearon los servicios de BigQuery y DataFlow para crear la base de datos necesaria y  su posterior automatización  de tareas relacionadas con el procesamiento y análisis de los datos.
 
@@ -64,7 +68,7 @@ El proceso completo abarcó desde la extracción de datos hasta su almacenamient
 
     a.	Tecnología: Google Places API, Yelp Open Dataset API.
 
-    b.	Descripción: Utilizamos para la carga inicial los dataset provenientes de la API de Google Places y la API de Yelp Opren Dataset para extraer datos de ubicaciones y reseñas de lugares específicos en Estados Unidos.
+    b.	Descripción: Utilizamos para la carga inicial los dataset provenientes de la API de Google Places y de Yelp Open Dataset para extraer datos de ubicaciones y reseñas de lugares específicos en Estados Unidos.
 
     c.	Detalles adicionales:
 
