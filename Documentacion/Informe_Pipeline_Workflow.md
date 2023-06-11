@@ -136,5 +136,5 @@ Si bien las relaciones en un diagrama ER tradicional no se aplican directamente 
 Por eso generamos un Diagrama de ER para entender las relaciones.
 
  <p align="center">
-<img src= "../imgs/DiagramaER.png" >
+<img src= "../imgs/DiagramaER.PNG" >
 </p>
