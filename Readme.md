@@ -82,7 +82,7 @@ g. Generar recomendaciones accionables basadas en los hallazgos del análisis.
 - Scikit-learn 
 - Matplotlib / Seaborn
 - Fastparquet
-- pyarrow
+- Pyarrow
 
 **_Herramientas de visualización de datos:_**
 
