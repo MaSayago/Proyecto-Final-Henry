@@ -94,3 +94,36 @@ El modelo de análisis de categorías y palabras clave es una herramienta podero
 - **Bibliotecas de evaluación del modelo:** La biblioteca `sklearn.metrics` proporciona métricas de evaluación de modelos, como el error cuadrático medio (`mean_squared_error`), que se utiliza en el código proporcionado para evaluar el rendimiento del modelo.
 
 - **Bibliotecas para manipulación de matrices dispersas:** La biblioteca `scipy.sparse` se utiliza para manipular matrices dispersas, como las representaciones vectoriales generadas por `TfidfVectorizer`. Las funciones `vstack` y `csr_matrix` se utilizan en el código proporcionado para concatenar y convertir matrices dispersas.
+
+## Dashboard
+
+Para realizar la integración de lo desarrollado hasta el momento decidimos utilizar un dashboard en Power BI, ya que consideramos que es una herramienta clave para visualizar y presentar de manera efectiva las recomendaciones de mejoras generadas a partir del modelo. 
+A continuación, enumeramos 3 fundamentos por los cuales elegimos esta herramienta y procedamos a describir el desarrollo de esta integración:
+
+- Proporciona una interfaz intuitiva y visualmente atractiva para mostrar información relevante de manera clara y concisa.
+
+- Permite a los usuarios acceder y comprender fácilmente las recomendaciones de mejoras generadas por el sistema, lo que facilita la toma de decisiones y la implementación de acciones correctivas.
+
+- Incluye visualizaciones interactivas, tablas, gráficos y otros elementos visuales que ayuden a presentar los datos de manera comprensible y atractiva.
+
+Establecidos los fundamentos procedemos a detallar el contenido estructurado en las distintas páginas del dashboard:
+
+**Introducción:**
+
+El dashboard que hemos desarrollado ofrece una visión integral de diversos aspectos clave relacionados con la satisfacción del cliente y la reputación del establecimiento. En esta documentación, presentaremos las distintas páginas que componen el dashboard, destacando los indicadores clave de rendimiento (KPIs) y sus cualidades relevantes. Nuestro objetivo es proporcionar una herramienta que permita evaluar y mejorar continuamente la satisfacción del cliente y la percepción general del establecimiento.
+
+**Página de Inicio:**
+
+La página de inicio es la página de presentación de nuestra consultora y muestra una vista general del dashboard. Aquí, se pueden apreciar las distintas páginas en las que se ha estructurado el dashboard, brindando una visión general de su contenido y organización.
+
+**Satisfacción del Cliente:**
+
+En esta página, se presenta el índice de satisfacción del cliente tanto de Google como de Yelp. Se muestra el promedio actual de calificaciones, el promedio objetivo deseado y la brecha existente para alcanzar dicho objetivo, que en este caso es un aumento del 20% en el promedio de estrellas. Este KPI refleja el nivel de satisfacción de los clientes en base al promedio de las calificaciones, lo que permite evaluar la situación del establecimiento y su evolución a lo largo del tiempo.
+
+**Índice de Participación y Retroalimentación:**
+
+En esta página, se pueden visualizar gráficos que muestran la evolución del índice de participación de los usuarios, es decir, la cantidad de reseñas que reciben los bares. Además, se presenta el siguiente KPI:
+
+**KPI: Participación y Retroalimentación Anual**
+
+Este KPI evalúa la imagen del establecimiento basándose en el puntaje de calificaciones recibidas. Se utiliza el porcentaje de calificaciones positivas y se comparan con el de las negativas para determinar el índice de reputación. El objetivo es aumentar el porcentaje de calificaciones positivas en al menos un 10%, lo cual indica una mejora en la percepción del establecimiento por parte de los clientes.
