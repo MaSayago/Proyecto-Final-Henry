@@ -82,7 +82,7 @@ g. Generar recomendaciones accionables basadas en los hallazgos del análisis.
 - Scikit-learn 
 - Matplotlib / Seaborn
 - Fastparquet
-- pyarrow
+- Pyarrow
 
 **_Herramientas de visualización de datos:_**
 
@@ -102,7 +102,7 @@ g. Generar recomendaciones accionables basadas en los hallazgos del análisis.
 
 Se utilizará la metodología ágil Scrum para el desarrollo del proyecto. El equipo se organizará en sprints de una semana de duración, con reuniones diarias de seguimiento y una reunión de revisión al final de cada sprint. Se obtendrá más información del cronograma general en el siguiente diagrama de Gantt:
  <p align="center">
-<img src= img/Diagrama_de_Gantt-Semana-2.jpeg >
+<img src= "imgs/Diagrama_de_Gantt-Semana-2.jpeg" >
 </p>
 
 ## Análisis preliminar de calidad de datos:
@@ -110,7 +110,7 @@ Se utilizará la metodología ágil Scrum para el desarrollo del proyecto. El eq
  
 ## Ingeniería de datos
 
- En la carpeta Ingenieria de datos, se podra encontrar todo el proceso de ETL(Extract, Transform and Load) junto con su Pipelines y la creación del Data Warehouse  con el Modelo Entidad-Relación donde estan los archivo que genera la carga de los datos ya limpios en el Data Warehouse. Con su correspondiente documentacion que esta en el archivo Informe_Pipelines_y_Workflow.docx y su diccionario de datos.
+ En la carpeta Documentacion, se podra encontrar el proceso de creacion de Pipelines y la creación del Data Warehouse, con el Modelo Entidad-Relación donde estan los archivos que genera la carga de los datos ya limpios en el Data Warehouse. Con su correspondiente documentacion que esta en el archivo Informe_Pipelines_y_Workflow.md y su diccionario de datos.
 
 
 # Roles:
