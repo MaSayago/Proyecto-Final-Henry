@@ -84,7 +84,7 @@ g. Planteo de recomendaciones accionables basadas en los hallazgos del análisis
  Utilizamos para el desarrollo del proyecto la metodología ágil Scrum. El equipo se organizó en sprints de una semana de duración, con reuniones diarias de seguimiento y una reunión de revisión al final de cada sprint. Se puede observar del cronograma general en el siguiente diagrama de Gantt:
 
 <p align="center">
-<img src= "imgs/Diagrama_de_Gantt-Semana-2.jpeg" >
+<img src= "imgs/e.png" >
 </p>
 
 # Roles:
