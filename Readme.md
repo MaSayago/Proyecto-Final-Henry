@@ -1,6 +1,6 @@
-# `<h1 align=center>` **`PROYECTO FINAL - Sistema de Recomendación para la Mejora De Bares`** `</h1>`
+# <h1 align=center> **`PROYECTO FINAL - Sistema de Recomendación para la Mejora De Bares`** </h1>
 
-# `<h1 align=center>` ![ia](https://emoji.slack-edge.com/TPRS7H4PN/henry-pm/4658c1bc769b53ae.png) `</h1>`
+# <h1 align=center> ![ia](https://emoji.slack-edge.com/TPRS7H4PN/henry-pm/4658c1bc769b53ae.png) </h1>
 
 En representación de la consultora QUINQUE, nos complace compartir con ustedes un emocionante proyecto en el que nos hemos embarcado con el fin de satisfacer la necesidad de nuestro cliente, quien requiere un análisis integral que contribuya a mejorar la calidad y la experiencia de sus clientes en bares de Estados Unidos a través del feedback e interacciones de los usuarios.
 
@@ -84,7 +84,7 @@ g. Planteo de recomendaciones accionables basadas en los hallazgos del análisis
  Utilizamos para el desarrollo del proyecto la metodología ágil Scrum. El equipo se organizó en sprints de una semana de duración, con reuniones diarias de seguimiento y una reunión de revisión al final de cada sprint. Se puede observar del cronograma general en el siguiente diagrama de Gantt:
 
 <p align="center">
-<img src= "imgs/Diagrama_de_Gantt-Semana-2.jpeg" >
+<img src= "imgs/e.png" >
 </p>
 
 # Roles:
