@@ -90,10 +90,10 @@ g. Recomendaciones accionables basadas en los hallazgos del análisis.
  Utilizamos para el desarrollo del proyecto la metodología ágil Scrum. El equipo se organizó en sprints de una semana de duración, con reuniones diarias de seguimiento y una reunión de revisión al final de cada sprint. Se puede observar del cronograma general en el siguiente diagrama de Gantt:
 
 
-~~IMAGEN PARA ACTUALIZAR~~
+
 
 <p align="center">
-<img src= "imgs/Diagrama_de_Gantt-Semana-2.jpeg" >
+<img src= "imgs/e.png" >
 </p>
 
 ### Roles
@@ -149,7 +149,7 @@ Sin embargo, es importante tener en cuenta que el eyebrow bar, que es un salón 
 
 
 <p align="center">
-<img src="">
+<img src="../imgs/distrYelp.png">
 </p>
 
 Observamos que la mayoría de las puntuaciones se encuentran en 1 y 5 estrellas, lo que sugiere que las opiniones de las personas son polarizadas y aplican una crítica objetiva, lo cual está en línea con el enfoque de la plataforma. Además, se nota una fuerte inclinación hacia las 5 estrellas.
