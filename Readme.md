@@ -1,4 +1,4 @@
-# `<h1 align=center>` **`PROYECTO FINAL - Sistema de Recomendación para la Mejora De Bares`** `</h1>`
+# <h1 align=center> **`PROYECTO FINAL - Sistema de Recomendación para la Mejora De Bares`** </h1>
 
 # `<h1 align=center>` ![ia](https://emoji.slack-edge.com/TPRS7H4PN/henry-pm/4658c1bc769b53ae.png) `</h1>`
 
