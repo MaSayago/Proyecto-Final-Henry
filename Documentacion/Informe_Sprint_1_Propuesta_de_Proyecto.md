@@ -93,7 +93,7 @@ g. Recomendaciones accionables basadas en los hallazgos del análisis.
 
 
 <p align="center">
-<img src= "imgs/e.png" >
+<img src= "../imgs/e.png" >
 </p>
 
 ### Roles
@@ -144,9 +144,6 @@ Los poke bars, siendo bares hawaianos, también tienen un lugar en la distribuci
 Sin embargo, es importante tener en cuenta que el eyebrow bar, que es un salón de belleza especializado en cejas y pestañas, no está relacionado con la propuesta de bares y se filtrará del conjunto de trabajo. Por lo que no forma parte de la distribución de bares y puede considerarse una información adicional sin relevancia para el análisis de los bares en cuestión.
 
 ### Distribucion de las estrellas en Yelp
-
-~~IMAGEN DE LA DITRUBCION DE ESTRELLAS~~
-
 
 <p align="center">
 <img src="../imgs/distrYelp.png">
