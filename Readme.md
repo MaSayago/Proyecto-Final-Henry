@@ -84,7 +84,7 @@ g. Planteo de recomendaciones accionables basadas en los hallazgos del análisis
  Utilizamos para el desarrollo del proyecto la metodología ágil Scrum. El equipo se organizó en sprints de una semana de duración, con reuniones diarias de seguimiento y una reunión de revisión al final de cada sprint. Se puede observar del cronograma general en el siguiente diagrama de Gantt:
 
 <p align="center">
-<img src= "imgs/e.png" >
+<img src= "imgs/Diagrama_de_Gantt-Semana-2.jpeg" >
 </p>
 
 # Roles:
@@ -95,7 +95,7 @@ g. Planteo de recomendaciones accionables basadas en los hallazgos del análisis
 
 # Análisis preliminar de calidad de datos:
 
-Mediante el uso de diversas técnicas de análisis de datos, exploramos los factores producto de la expriencia de los clientes en los distintos establecimientos. Presentamos los principales hallazgos de nuestro análisis en la carpeta de Documentacion Informe_Sprint_1_Propuesta_de_Proyecto
+Mediante el uso de diversas técnicas de análisis de datos, exploramos los factores producto de la expriencia de los clientes en los distintos establecimientos. Presentamos los principales hallazgos de nuestro análisis en la carpeta de Documentacion Informe_Sprint_1_Propuesta_de_Proyecto.md
 
 # Ingeniería de datos
 
