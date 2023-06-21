@@ -128,4 +128,4 @@ En conclusión, este proyecto ha sido una experiencia enriquecedora que ha combi
 
 [**_Link Power Bi_**](http://bit.ly/Dashboar-QUINQUE)
 
-[**_Link videos Pipelines_**](https://drive.google.com/file/d/1nWSb1UQItrxoGdHJbtKJSOSZbibCCNpt/view?usp=drive_link)
+[**_Link video Pipelines_**](https://drive.google.com/file/d/1nWSb1UQItrxoGdHJbtKJSOSZbibCCNpt/view?usp=drive_link)
