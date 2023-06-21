@@ -127,3 +127,5 @@ En conclusión, este proyecto ha sido una experiencia enriquecedora que ha combi
 [**_Link de la app_**](https://85cd-190-1-12-102.ngrok-free.app/)
 
 [**_Link Power Bi_**](http://bit.ly/Dashboar-QUINQUE)
+
+[**_Link videos Pipelines_**](https://drive.google.com/file/d/1nWSb1UQItrxoGdHJbtKJSOSZbibCCNpt/view?usp=drive_link)
