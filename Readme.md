@@ -122,6 +122,8 @@ En conclusión, este proyecto ha sido una experiencia enriquecedora que ha combi
 
 ## Link generales del repositorio:
 
-[**_Github:_**](https://github.com/alexDRandom/Proyecto-Final-Henry)
+[**_Github_**](https://github.com/alexDRandom/Proyecto-Final-Henry)
+
 [**_Link de la app_**](https://85cd-190-1-12-102.ngrok-free.app/)
-[_**Link Power Bi_**](http://bit.ly/Dashboar-QUINQUE)
+
+[**_Link Power Bi_**](http://bit.ly/Dashboar-QUINQUE)
