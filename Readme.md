@@ -97,15 +97,15 @@ g. Planteo de recomendaciones accionables basadas en los hallazgos del análisis
 
 # Análisis preliminar de calidad de datos:
 
-Mediante el uso de diversas técnicas de análisis de datos, exploramos los factores producto de la expriencia de los clientes en los distintos establecimientos. Presentamos los principales hallazgos de nuestro análisis en la carpeta de Documentacion Informe_Sprint_1_Propuesta_de_Proyecto.md
+Mediante el uso de diversas técnicas de análisis de datos, exploramos los factores producto de la expriencia de los clientes en los distintos establecimientos. Presentamos los principales hallazgos de nuestro análisis en la carpeta de Documentacion [Informe_Sprint_1_Propuesta_de_Proyecto.md](https://github.com/alexDRandom/Proyecto-Final-Henry/blob/main/Documentacion/Informe_Sprint_1_Propuesta_de_Proyecto.md)
 
 # Ingeniería de datos
 
-En la carpeta Documentacion, detallamos el proceso de creación del Data Warehouse y los Pipelines que automatizan la carga de los datos ya limpios. Tambien se pueden apreciar el Diagrama Entidad-Relación y el diccionario de datos los cuales facilitan el entendimiento de la relaciones que albergan los datasets. Para más detalles ver Informe_Sprint_2_Data_Engineering.md
+En la carpeta Documentacion, detallamos el proceso de creación del Data Warehouse y los Pipelines que automatizan la carga de los datos ya limpios. Tambien se pueden apreciar el Diagrama Entidad-Relación y el diccionario de datos los cuales facilitan el entendimiento de la relaciones que albergan los datasets. Para más detalles ver [Informe_Sprint_2_Data_Engineering.md](https://github.com/alexDRandom/Proyecto-Final-Henry/blob/main/Documentacion/Informe_Sprint_2_Data_Engineering.md)
 
 # Machine Learning y Dashboard:
 
-El desarrollo del modelo de machine learning y el dashboard en Power BI se encuentra detallado en el Infome_Sprint_3_ML_y_Dasboard.md
+El desarrollo del modelo de machine learning y el dashboard en Power BI se encuentra detallado en el [Infome_Sprint_3_ML_y_Dasboard.md](https://github.com/alexDRandom/Proyecto-Final-Henry/blob/main/Documentacion/Infome_Sprint_3_ML_y_Dasboard.md)
 
 # Acciones Estratégicas Sugeridas
 
