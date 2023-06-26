@@ -1,129 +1,131 @@
-# <h1 align=center>**`PROYECTO FINAL - Sistema de Recomendación para Mejora De Bares`**</h1>
+# <h1 align=center> **`PROYECTO FINAL - Sistema de Recomendación para la Mejora De Bares`** </h1>
 
-# <h1 align=center> ![ia](https://emoji.slack-edge.com/TPRS7H4PN/henry-pm/4658c1bc769b53ae.png) </h1>
+# <h1 align=center> <p align="center">
+<img src= "imgs/Bar-portada.PNG" >
+</p> </h1>
 
+En representación de la consultora QUINQUE, nos complace compartir con ustedes un emocionante proyecto en el que nos hemos embarcado con el fin de satisfacer la necesidad de nuestro cliente, quien requiere un análisis integral que contribuya a mejorar la calidad y la experiencia de sus clientes en bares de Estados Unidos a través del feedback e interacciones de los usuarios.
 
-# Entendimiento de la situación actual
+Nuestra propuesta consiste en desarrollar, basándonos en un análisis exhaustivo de datos obtenidos de plataformas digitales, un modelo de machine learning que destaque las áreas clave que deben abordarse. Esto brindará una estimación del margen de crecimiento de acuerdo a la situación de cada establecimiento, junto con un dashboard para poder visualizar la situación actual, la evolución y el progreso e impacto de las modificaciones, a través de indicadores clave de desempeño (KPI).
 
-A través de las plataformas de Google map y Yelp los usuarios pueden dejar reseñas  y calificaciones de los bares, hoteles y otros negocios a fines. Lo que permite tener al alcanze una gran cantidad de datos de los cuales se pueden usar para mejorar la experiencia de los clientes.
+Para llevarlo a cabo, realizamos un análisis de las interacciones de los usuarios en las plataformas de Google Maps y Yelp en relación a los bares. Estas interacciones constan de reseñas en forma de texto y calificaciones en forma de estrellas en un rango de 1 a 5.
 
-En representación de la consultora QUINQUE, nos complace compartir con ustedes un emocionante proyecto en el que nos hemos embarcado recientemente. Hemos sido contratados por un cliente que se encuentra en el rubro de bares y busca mejorar la calidad de sus establecimientos y la experiencia de sus clientes.
+# Objetivo
 
+Nuestro objetivo consiste en ayudar a mejorar la experiencia de los clientes y fortalecer la imagen de los establecimientos. Buscamos plantear, a su vez, la implementación de acciones estratégicas en las áreas clave destacadas por nuestro modelo, que impulsen la satisfacción, fomenten la participación y retroalimentación.
 
+Con dicho objetivo en mente, planteamos los siguientes KPI para medir el rendimiento:
 
-## Objetivos
+### Índice de satisfacción del cliente:
 
+Este KPI refleja el nivel de satisfacción de los clientes en base al promedio de las calificaciones. Lo planteamos debido a que la satisfacción del cliente es un indicador clave para evaluar el desempeño del negocio y la calidad de sus servicios. Su funcion principal es evaluar la situación del establecimiento y su evolución a lo largo del tiempo. Será clave para determinar el impacto de las modificaciones en las áreas a mejorar. El objetivo es aumentar el promedio de satisfacción en al menos un 20% en un plazo de 6 a 12 meses.
 
-- Mejorar 
+### Índice de participación y retroalimentación de los clientes:
 
-- Crecer/Expandir
+Este KPI evalúa el nivel de participación y retroalimentación de los clientes en base a la cantidad de reseñas. Lo plantemos ya que las interacciones y feedabacks de los clientes son fundamentales para evaluar la satisfacción y el nivel de interes de los clientes para con el establecimiento. El objetivo es aumentar el número total de reseñas en al menos un 25% en un plazo de 6 a 12 meses.
 
+### Índice de reputación del establecimiento:
 
-# Alcance
+Este KPI evalúa la imagen del establecimiento basándose en el porcentaje de calificaciones positivas y negativas. Su elevaoracion esta fundada en que la imagen y reputación del establecimiento son factores de gran importacia en la atracción de nuevos clientes y en la fidelización de los existente. El objetivo es aumentar el porcentaje de calificaciones postivas en al menos un 20%  en un plazo de 6 a 12 meses a través de las acciones estrategicas en las areas clave.
 
-El alcance de este proyecto incluye analizar las reseñas de bares con baja y alta calificacion de los clientes. Tambien sus opiniones y consejos de estos mismo, para identificar patrones o tendencias que puedan determinar las áreas que requieren mejoras. Además, exploraremos las localizaciones de bares para poder determinar oportunidades de expansión en nuevas ubicaciones geográficas y brindaremos asesoramiento estratégico para lograr un crecimiento en un plazo de 6 a 12 meses.
+# ***Tareas llevadas a cabo:***
 
+a. Recopilacion y exploracion de los datos enfocados a bares de Norte America.
 
-# Objetivos y KPIs asociados
+b. Análisis exploratorio de los datos para identificar patrones y tendencias.
 
-## KPIs de mejora:
+c. Aplicacion de técnicas de limpieza y preprocesamiento de datos que garanticen su calidad.
 
-- **_Promedio de calificaciones:_** Calcula el promedio de calificaciones (estrellas) de los bares utilizando las reseñas de los clientes. El objetivo será aumentar este promedio en al menos un 20% a medida que se implementen las mejoras. Esto indicará una mejora general en la calidad y la satisfacción del cliente.
+d. Realizacion de análisis estadísticos y modelos de correlación.
 
-- **_Número total de reseñas:_** Determina cuántas reseñas ha recibido cada bar para evaluar su nivel de popularidad y participación de los clientes. El objetivo será aumentar el número total de reseñas en por lo menos 5%, lo cual reflejará una mayor interacción y retroalimentación de los clientes.
+e.Determinacion de las areas calves a mejorar.
 
-- **_Porcentaje de reseñas positivas:_** Calcula el porcentaje de reseñas con calificaciones altas (por ejemplo, 4 o 5 estrellas) para evaluar el nivel de satisfacción general de los clientes. El objetivo será aumentar este porcentaje entre un 5% y 15%, lo cual indicará una mejora en la percepción positiva de los clientes sobre los bares.
+f. Desarrollo de un modelo predictivo utilizando técnicas de aprendizaje automático para estimar el éxito potencial de nuevos locales.
 
-- **_Palabras clave más frecuentes en las reseñas:_** Utilizando técnicas de procesamiento de lenguaje natural, identifica las palabras clave más frecuentes asociadas con experiencias positivas o negativas. Este KPI permitirá comprender mejor las preferencias de los clientes y las áreas específicas que requieren mejora. El objetivo será identificar y abordar al menos 3 áreas de mejora relevantes según las palabras clave extraídas.
+g. Planteo de recomendaciones accionables basadas en los hallazgos del análisis.
 
-## KPIs de ubicación y expansión:
+# ***Stack tecnológico***
 
-- **_Densidad de bares por ubicación:_** Utiliza la información de ubicación (latitud y longitud) para calcular la densidad de bares en diferentes áreas o ciudades. El objetivo será identificar áreas con alta densidad de bares y evaluar su potencial de expansión. El objetivo consistirá en aumentar el umbral de densidad en un 5% en los casos que demuestren potencial de expansión 
-
- - **_Índice de competencia:_** Utiliza la información de categorías de los bares para evaluar la competencia en diferentes segmentos de mercado, como "Mexican", "Burgers", "Gastropubs", entre otros. Este KPI permitirá identificar áreas con baja competencia y oportunidades de nicho. El objetivo consistirá en establecer un índice objetivo de competencia basado en el número de bares y su categoría para incrementarlo en al menos 5% en los segmentos que representen una oportunidad de nicho.
-
-- **_Evaluación de características locales:_** Analiza la presencia de atracciones turísticas, universidades, oficinas corporativas u otras características locales que puedan influir en el potencial de un bar. El objetivo será establecer un índice, mediante el establecimiento de criterios específicos, que represente las ubicaciones con características favorables para la expansión y el crecimiento del negocio, con el fin de identificar puntos relevantes para incrementar dicho índice en un 5%.
-
-
-# Solución propuesta
-
-## Tareas:
-
-a. Recopilar y explorar los datos disponibles sobre bares.
-
-b. Realizar un análisis exploratorio de los datos para identificar patrones y tendencias.
-
-c. Aplicar técnicas de limpieza y preprocesamiento de datos para garantizar su calidad.
-
-d. Realizar análisis estadísticos y modelos de correlación para identificar las variables más relevantes para el éxito de los bares.
-
-e. Desarrollar un modelo predictivo utilizando técnicas de aprendizaje automático para estimar el éxito potencial de nuevos locales.
-
-f. Evaluar el rendimiento del modelo y ajustar los parámetros según sea necesario.
-
-g. Generar recomendaciones accionables basadas en los hallazgos del análisis.
-
-## **Stack tecnológico**
-
-**_Herramientas de colaboración y gestión de proyectos_**
+**Herramientas de colaboración y gestión de proyectos**
 
 - Discord
 - Google meet
 - GitHub
- 
-**_Lenguaje de programación:_** 
 
-- Python 
+**Lenguaje de programación:**
 
-**_Bibliotecas y frameworks:_** 
-- Wordcloud 
 - Python
-- Pandas / NumPy
-- Scikit-learn 
-- Matplotlib / Seaborn
-- Fastparquet
-- Pyarrow
+- DAX
+- HTML
 
-**_Herramientas de visualización de datos:_**
+**Bibliotecas y frameworks:**
+
+- Wordcloud
+- NumPy
+- Pandas
+- Scikit-learn
+- Matplotlib / Seaborn
+- NLTK
+- SciPy
+
+**Herramientas de visualización de datos:**
 
 - Prezi
-- PowerBI 
+- PowerBI
 
-**_Base de Datos_:**
+**Data Wherehouse  y base de datos:**
 
-- Google Cloud Plataform
-   - Cloud Storage
-   - Bucket
-   - BigQuery
-   - DataFlow
+- Google Cloud Plataform:
+  - Cloud Storage
+  - Bucket
+  - BigQuery
+  - Cloud Functions
 
+# Metodología de trabajo:
 
-## Metodología de trabajo:
+ Utilizamos para el desarrollo del proyecto la metodología ágil Scrum. El equipo se organizó en sprints de una semana de duración, con reuniones diarias de seguimiento y una reunión de revisión al final de cada sprint. Se puede observar del cronograma general en el siguiente diagrama de Gantt:
 
-Se utilizará la metodología ágil Scrum para el desarrollo del proyecto. El equipo se organizará en sprints de una semana de duración, con reuniones diarias de seguimiento y una reunión de revisión al final de cada sprint. Se obtendrá más información del cronograma general en el siguiente diagrama de Gantt:
- <p align="center">
-<img src= "imgs/Diagrama_de_Gantt-Semana-2.jpeg" >
+<p align="center">
+<img src= "imgs/e.png" >
 </p>
-
-## Análisis preliminar de calidad de datos:
- Este informe de Análisis Exploratorio de Datos (EDA) presenta los resultados obtenidos a partir de los datos recopilados de Google Maps y Yelp. Nuestro objetivo principal fue analizar la información de bares y establecimientos similares con el fin de mejorar la calidad de los negocios y la experiencia de los clientes. Mediante el uso de diversas técnicas de análisis de datos, exploramos los factores que contribuyen a la excelencia en los establecimientos y proporcionamos recomendaciones clave para optimizar el rendimiento y brindar una experiencia excepcional a los clientes. A continuación, presentamos los principales hallazgos y recomendaciones derivados de nuestro análisis que se puede encontrar en el Informe-EDA.md 
- 
-## Ingeniería de datos
-
- En la carpeta Documentacion, se podra encontrar el proceso de creacion de Pipelines y la creación del Data Warehouse, con el Modelo Entidad-Relación donde estan los archivos que genera la carga de los datos ya limpios en el Data Warehouse. Con su correspondiente documentacion que esta en el archivo Informe_Pipelines_y_Workflow.md y su diccionario de datos.
-
 
 # Roles:
 
 - **_Data Analyst_**: Kevin Bambozzi, Martin Sayago
+- **_Data Engineer_**: Alex Dalpiaz, Jeremias Ramirez, Yamil Pintos
+- **_Data Science_**: Alex Dalpiaz, Jeremias Ramirez, Yamil Pintos, Kevin Bambozzi, Martin Sayago
 
-- **_Data Engineer_**: Yamil Pintos, Alex Dalpiaz, Jeremias Ramirez
+# Análisis preliminar de calidad de datos:
 
-- **_Data Science_**: Alex Dalpiaz, Jeremias Ramirez
+Mediante el uso de diversas técnicas de análisis de datos, exploramos los factores producto de la expriencia de los clientes en los distintos establecimientos. Presentamos los principales hallazgos de nuestro análisis en la carpeta de Documentacion [Informe_Sprint_1_Propuesta_de_Proyecto.md](https://github.com/alexDRandom/Proyecto-Final-Henry/blob/main/Documentacion/Informe_Sprint_1_Propuesta_de_Proyecto.md)
 
-## Link De Repositorio: 
+# Ingeniería de datos
 
-**_Github:_** <https://github.com/alexDRandom/Proyecto-Final-Henry>
+En la carpeta Documentacion, detallamos el proceso de creación del Data Warehouse y los Pipelines que automatizan la carga de los datos ya limpios. Tambien se pueden apreciar el Diagrama Entidad-Relación y el diccionario de datos los cuales facilitan el entendimiento de la relaciones que albergan los datasets. Para más detalles ver [Informe_Sprint_2_Data_Engineering.md](https://github.com/alexDRandom/Proyecto-Final-Henry/blob/main/Documentacion/Informe_Sprint_2_Data_Engineering.md)
+
+# Machine Learning y Dashboard:
+
+El desarrollo del modelo de machine learning y el dashboard en Power BI se encuentra detallado en el [Infome_Sprint_3_ML_y_Dasboard.md](https://github.com/alexDRandom/Proyecto-Final-Henry/blob/main/Documentacion/Infome_Sprint_3_ML_y_Dasboard.md)
+
+# Acciones Estratégicas Sugeridas
+
+1. Implementar un programa de mejora continua en base a las sugerencias y comentarios de los clientes, para abordar las áreas de oportunidad identificadas por el modelo.
+2. Fomentar la participación de los clientes a través de incentivos, promociones especiales o programas de lealtad que estimulen la retroalimentación y la generación de reseñas positivas.
+3. Capacitar al personal en habilidades de servicio al cliente y establecer estándares claros para garantizar una respuesta rápida y efectiva a las reseñas y comentarios de los clientes.
+4. Monitorear regularmente las calificaciones y comentarios recibidos, identificando tendencias y patrones para abordar rápidamente cualquier problema o preocupación que pueda afectar la reputación del establecimiento.
+5. Realizar campañas de marketing y comunicación para resaltar los aspectos positivos del establecimiento, destacando las experiencias satisfactorias de los clientes y promoviendo la imagen positiva del negocio.
 
 
-Agradecemos su atención y estamos disponibles para responder cualquier pregunta que puedan tener. Esperamos poder llevar a cabo este proyecto exitosamente y lograr mejoras significativas en los bares de nuestro cliente. ¡Gracias!
+# Concluciones 
+
+En conclusión, este proyecto ha sido una experiencia enriquecedora que ha combinado análisis de datos, machine learning y estrategias efectivas para mejorar la experiencia del cliente y fortalecer la reputación de los establecimientos. Estamos convencidos de que nuestras acciones contribuirán al crecimiento y éxito a largo plazo de nuestros clientes en la industria de bares en Estados Unidos.
+
+## Link generales del repositorio:
+
+[**_Github_**](https://github.com/alexDRandom/Proyecto-Final-Henry)
+
+[**_Link de la app_**](https://85cd-190-1-12-102.ngrok-free.app/)
+
+[**_Link Power Bi_**](http://bit.ly/Dashboar-QUINQUE)
+
+[**_Link video Pipelines_**](https://drive.google.com/file/d/1nWSb1UQItrxoGdHJbtKJSOSZbibCCNpt/view?usp=drive_link)
